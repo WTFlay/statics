@@ -1,6 +1,6 @@
 # statics
 
-Statistics calculator. Compute average, deviation and relative deviation.
+Simple statistics calculator. Compute average, deviation and relative deviation.
 
 ## Build
 
@@ -13,7 +13,7 @@ $ make
 The program reads only from the standard input. The first line is the total number of numbers and the other lines are the numbers.
 
 ```sh
-$ ./gen_input.sh my_project_in_java "*.java" | ./statics
+$ ./gen_input.sh my_project_in_java/ "*.java" | ./statics
 
 average: 139.277281
 deviation: 166.873984
